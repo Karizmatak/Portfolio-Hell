@@ -1,0 +1,17 @@
+@font-face{
+  font-family: Metal;
+  src: url("../src/assets/fonts/MetalMania-Regular.ttf")
+}
+
+@font-face{
+  font-family: Creepster;
+  src: url("../src/assets/fonts/Creepster-Regular.ttf")
+}
+
+
+@import "tailwindcss";
+
+@theme{
+  --font-metal: Metal, "sans-serif";
+  --font-creepster: Creepster, "sans-serif";
+}
